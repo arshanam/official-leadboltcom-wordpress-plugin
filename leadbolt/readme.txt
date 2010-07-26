@@ -15,14 +15,14 @@ Plugin to allow Leadbolt.com's unlockers to be easily added to your WordPress si
 == Installation ==
 
 1. Upload the 'leadbolt/' directory to the '/wp-content/plugins/' directory.
-2. Activate the through the 'Plugins' menu in WordPress (You will then see a new menu item appear under Settings)
-3. Click Settings => Leadbolt Unlocker Options link
-4. Use the given form to enter your unlocker code & select the pages you wish to add the unlocker to.
+2. Activate it through the 'Plugins' menu in WordPress. You will then see a new menu item appear under Settings.
+3. Click Settings => Leadbolt Unlocker Options link.
+4. Use the given form to enter your unlocker code & select the pages and/or posts you wish to add the unlocker to.
 
 == Frequently Asked Questions ==
 
 = How does this plugin work ? =
-This plugin makes it easy to add Leadbolt.com's unlocker to your wordpress site or blog without editting the theme files. It does this by providing a Leadbolt unlocker setting page where you can enter the html code for each unlocker set up in Leadbolt.com's portal. The plugin will insert your codes using the wp_print_scripts action.
+This plugin makes it easy to add Leadbolt.com's unlocker to your wordpress site or blog without editting the theme files. It does this by providing a Leadbolt unlocker setting page where you can enter the HTML code for each unlocker set up in Leadbolt.com's portal. The plugin will insert your codes using the wp_print_scripts action.
 
 = Can I have more than one Leadbolt unlocker on my wordpress site or blog ? =
 Yes, just add each unlocker code into the settings pages and select the pages and post for it to appear. Please ensure if using mulitple unlockers to only have 1 unlocker defined for each page or post. This plugin will take and display the first active unlocker found.
