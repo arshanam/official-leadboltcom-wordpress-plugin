@@ -14,7 +14,7 @@ Plugin to allow Leadbolt.com's unlockers to be easily added to your WordPress si
 
 == Installation ==
 
-1. Upload the 'leadbolt/' directory to the '/wp-content/plugins/' directory.
+1. Upload the 'official-leadboltcom-wordpress-plugin/' directory to the '/wp-content/plugins/' directory.
 2. Activate it through the 'Plugins' menu in WordPress. You will then see a new menu item appear under Settings.
 3. Click Settings => Leadbolt Unlocker Options link.
 4. Use the given form to enter your unlocker code & select the pages and/or posts you wish to add the unlocker to.
