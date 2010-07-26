@@ -1,12 +1,23 @@
 <?php
 if($_POST['create_new'] == 'true')
 {
-	// insert the option into the table
-	$pages=implode(',',$_POST['pageid']);
-	
-	$sql="INSERT INTO ".DB_TABLE." (Pages, Code, Notes) VALUES ('".mysql_real_escape_string($pages)."', '".mysql_real_escape_string($_POST['unlocker_code'])."', '".mysql_real_escape_string($_POST['unlocker_notes'])."')";
-	mysql_query($sql);
-	echo '<div class="updated"><p><strong>Unlocker Added</strong></p></div>';
+	if(empty($_POST['pageid']))
+	{
+		echo '<div class="error"><p><strong>Please select pages and/or posts before adding Unlocker</strong></p></div>';
+	}
+	elseif(empty($_POST['unlocker_code']))
+	{
+		echo '<div class="error"><p><strong>Cannot add empty unlocker.</strong></p></div>';
+	}
+	else
+	{
+		// insert the option into the table
+		$pages=implode(',',$_POST['pageid']);
+		
+		$sql="INSERT INTO ".DB_TABLE." (Pages, Code, Notes) VALUES ('".mysql_real_escape_string($pages)."', '".mysql_real_escape_string($_POST['unlocker_code'])."', '".mysql_real_escape_string($_POST['unlocker_notes'])."')";
+		mysql_query($sql);
+		echo '<div class="updated"><p><strong>Unlocker Added</strong></p></div>';
+	}
 }
 elseif($_POST['submit_action'] == 'Update')
 {
