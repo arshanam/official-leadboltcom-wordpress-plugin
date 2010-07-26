@@ -32,8 +32,8 @@ Yes, just add each unlocker code into the settings pages and select the pages an
 
 == Changelog ==
 = 1.0 =
-* Initial release - 20th July 2010
+* Initial release - 26th July 2010
 
 == Upgrade Notice ==
 = 1.0 =
-* Initial release - 20th July 2010
+* Initial release - 26th July 2010
