@@ -28,7 +28,7 @@ This plugin makes it easy to add Leadbolt.com's unlocker to your wordpress site 
 Yes, just add each unlocker code into the settings pages and select the pages and post for it to appear. Please ensure if using mulitple unlockers to only have 1 unlocker defined for each page or post. This plugin will take and display the first active unlocker found.
 
 == Screenshots ==
-1. A demo of the content unlocker is available at Leadbolt.com
+1. Adding a Leadbolt unlocker to your wordpress site or blog.
 
 == Changelog ==
 = 1.0 =
