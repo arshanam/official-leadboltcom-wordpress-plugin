@@ -60,7 +60,9 @@ function generateDropDownOptions($selected_vals=array())
 		$selected_vals=array();
 	}
 	$pages=get_pages();
-	$posts = get_posts();
+	$posts = get_posts(array(
+		'numberposts' => -1
+	));
 	
 	ob_start();
 ?>
