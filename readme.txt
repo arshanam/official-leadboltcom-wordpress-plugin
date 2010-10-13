@@ -4,7 +4,7 @@ Donate link: http://www.leadbolt.com/
 Tags: admin, affiliate, advertising, ads, monetize, cpa, leadbolt, content, unlocker
 Requires at least: 2.7
 Tested up to: 2.9.2
-Stable tag: 1.0
+Stable tag: 1.1
 
 Plugin to allow Leadbolt.com's unlockers to be easily added to your WordPress site or blog. 
 
@@ -33,7 +33,11 @@ Yes, just add each unlocker code into the settings pages and select the pages an
 == Changelog ==
 = 1.0 =
 * Initial release - 26th July 2010
+= 1.1 =
+* Updated default limit of 5 when displaying Posts in the "Selected Post/Page" drop-down list - 13th Oct 2010
 
 == Upgrade Notice ==
 = 1.0 =
 * Initial release - 26th July 2010
+= 1.1 =
+* Updated default limit of 5 when displaying Posts in the "Selected Post/Page" drop-down list - 13th Oct 2010

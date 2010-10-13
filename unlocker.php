@@ -4,7 +4,7 @@ Plugin Name: Leadbolt Wordpress Unlocker
 Plugin URI: http://www.leadbolt.com
 Description: Plugin for displaying Leadbolt unlocker for wordpress sites
 Author: Leadbolt Pty Ltd.
-Version: 1.0
+Version: 1.1
 Author URI: http://www.leadbolt.com
 */
 
